@@ -1,0 +1,27 @@
+@model cybertech.Models.CompAssec
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CompAssec</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AssecName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AssecName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AssecID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

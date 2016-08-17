@@ -1,0 +1,26 @@
+﻿@model IEnumerable<cybertech.Models.CompAssec>
+
+@{
+    ViewBag.Title = "Copmuter Accessories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Copmuter Accessories</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-3 col-md-2">
+            <table class="table">
+                <tr>
+                    <td>
+
+                        @foreach (var item in Model)
+                        {
+                            @Html.ActionLink(item.AssecName, "Browse", new { id = item.AssecID })
+
+                        }
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </div>
+</div>

@@ -1,0 +1,17 @@
+﻿@model cybertech.Models.CompAssec
+
+@{
+    ViewBag.Title = "Browse";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Browse</h2>
+
+<ul>
+    @foreach (var product in Model.Products)
+    {
+        <li>
+            @Html.ActionLink(product.ProductName, "Description", new { id = product.ProductID })
+        </li>
+    }
+</ul>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cybertech", "cybertech\cybertech.csproj", "{4F83039E-07C8-4151-82AF-6CAC9F2E4FB0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cybertech", "cybertech\cybertech.csproj", "{EF8631F3-812D-44B3-8574-F7752A53FFC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F83039E-07C8-4151-82AF-6CAC9F2E4FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F83039E-07C8-4151-82AF-6CAC9F2E4FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F83039E-07C8-4151-82AF-6CAC9F2E4FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F83039E-07C8-4151-82AF-6CAC9F2E4FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8631F3-812D-44B3-8574-F7752A53FFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8631F3-812D-44B3-8574-F7752A53FFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8631F3-812D-44B3-8574-F7752A53FFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8631F3-812D-44B3-8574-F7752A53FFC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

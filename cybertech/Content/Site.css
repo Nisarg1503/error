@@ -1,6 +1,9 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 20px;
+    font-family: Zapf Chancery, cursive;
+        font-size: medium;
+    
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +24,74 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+img#img1 {
+    margin-bottom: -20%;
+    height:66px;
+    width:180px;
+    }
+
+.navbar-collapse.collapse {
+  background-color: #003b64;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+  
+
+}
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 2px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+/* Nav links */
+.navbar-brand {
+  position: relative;
+  display: inline-block;
+  padding: 15px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+a {
+    color:#FFFFFF;
+    font-size:18px;
+}
+
+.navbar-header{
+    height:66px;
+}
+
+.navbar-nav > li > a, .navbar-nav > li > a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    
+}
+.navbar-nav > li > a:hover{
+    color:#e5e505;
+}
+ul.navbar-nav {
+    padding-top : 12px;
+}
+
+/*Footer*/
+.navbar.navbar-fixed-bottom {
+    color:#ffffff;
+    background-color: #06263d;
+    width:auto;
+    height:auto;
+   
+}
+
+/* 
+ div.contaner{
+      background-color:#003b64;
+    padding-left: 5px;
+    padding-top: 1em;
+}
+    */
+a#contact {
+    color:#ff6a00;
 }

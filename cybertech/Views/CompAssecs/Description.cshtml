@@ -1,0 +1,18 @@
+@model cybertech.Models.Product
+
+@{
+    ViewBag.Title = "Description";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Description</h2>
+
+<div id="album-details">
+    <p>
+        <em>CompAssec:</em>
+        @Model.CompAssec.AssecName
+    </p>
+    <p class="button">
+        @Html.ActionLink("Add to cart", "AddToCart","ShoppingCart", new { id = Model.ProductID }, "")
+    </p>
+</div>
